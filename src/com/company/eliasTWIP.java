@@ -10,7 +10,7 @@ public class eliasTWIP {
             char ch[] = alphabet.toCharArray();
 
             Scanner kb = new Scanner(System.in);
-            System.out.println("Pick a name from the list below:");
+            System.out.println ("Pick a name from the list below:");
             for (int i=0; i<names.length; i++){
                 System.out.println(names[i]);
             }
